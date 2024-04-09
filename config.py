@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nഞാൻ @Moviecomplexofficialgroup ഇന് വേണ്ടി കഷ്ടപ്പെട്ട് പണിയെടുക്കുന്ന ഒരു Bot ആണ്.\n\nഞാൻ @Moviecomplexofficialgroup ഇന് വേണ്ടിമാത്രമേ Work ചെയ്യു.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nHey This Is 18+ Videos Sharing Bot.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ഇവിടെവന്ന് Message അയച്ചിട്ട് കാര്യമില്ല. @moviecomplexofficialgroup 👈 ഈ ഗ്രൂപ്പിൽ പോയി നിങ്ങൾക് വേണ്ട Movie & Series & Anime എന്നിവ Search ചെയ്ത് Download ചെയാം"
+USER_REPLY_TEXT = Don't Message To Me"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
